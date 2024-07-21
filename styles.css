@@ -1,0 +1,172 @@
+
+/* Name: Maruf Rasool
+   Studend ID: 8646187 */
+
+html {
+    font: 16px/1.5 Arial, sans-serif; /* Adjusted font size and line height */
+    background-color: lightcyan; /* Background color */
+}
+
+body {
+    max-width: 1200px; /* Maximum width of the body */
+    margin: 0 auto; /* Center the body horizontally */
+    padding: 1rem; /* Padding inside the body */
+    background-color: white; /* Background color */
+    border: 1px solid gray; /* Border color */
+}
+
+header {
+    background: linear-gradient(to right, orange, lightcoral); /* Gradient background */
+    padding: 1rem; /* Padding inside the header */
+    text-align: center; /* Center-align text */
+    color: white; /* Text color */
+}
+
+footer {
+    font-size: 0.7rem; /* Smaller font size */
+    text-align: center; /* Center-align text */
+    padding: 0.5rem; /* Padding inside the footer */
+    background: linear-gradient(to right, blue, purple); /* Gradient background */
+    color: white; /* Text color */
+    border-top: 3px solid gray; /* Border at the top */
+    clear: both; /* Clear floats */
+}
+
+/* Main content area - clear floats */
+main {
+    overflow: hidden; /* Clear floats */
+}
+
+/* Biography section styling to move biography beside image*/
+#Biography {
+    margin-bottom: 1rem; /* Space below the section */
+}
+
+.Biography-content {
+    display: flex; /* Flexbox layout */
+    gap: 1rem; /* Space between content and image */
+}
+
+.Biography-text {
+    flex: 1; /* Takes equal space with image*/
+    padding: 0.5rem; /* Padding inside the text content */
+    border: 0.5px solid lightgray; /* The Border around text content */
+    border-radius: 2rem; /* Size of rounded corners */
+    background-color: white; /* Light gray background */
+}
+
+.Biography-image {
+    flex: 1; /* Takes equal space with text*/
+    padding: 1rem; /* Padding inside the figure */
+    border: 1px solid lightgrey; /* The Border around the image */
+    border-radius: 2rem; /* Size of Rounded corners */
+    background-color: white; /* Slightly different gray background */
+}
+/* The biography image width */
+.Biography-image img {
+    width: 100%; /* Full width within its container */
+    border-radius: 0.5rem; /* Rounded corners */
+}
+
+q {
+    font-style: italic; /* Italic text */
+    color: red; /* red color quote*/
+    border: 1px solid gray; /* Border around the quote */
+    box-shadow: 3px 3px 5px darkgray; /* Shadow effect and color*/
+    display: block; /* Block display to ensure margins are applied */
+    margin: 1rem 0; /* Margin above and below */
+}
+
+cite {
+    display: block; /* Ensure citation is on its own line */
+    font-style: italic; /* Italic text style */
+    margin-top: 0.5rem; /* Margin above the citation */
+}
+
+
+/* Figure element - border, background, and padding */
+figure {
+    border: 1px solid lightgray; /* Border around figure and color */
+    border-radius: 2rem; /* Rounded corners */
+    background-color: white; /* white background */
+    padding: 1rem; /* Padding inside figure */
+    margin: 1rem auto; /* Margin above and below */
+}
+
+/* Figcaption - styles for captions */
+figcaption {
+    font-variant: small-caps; /* Small caps font variant */
+    font-style: italic; /* Italic font style */
+    font-weight: bold; /* Bold font weight */
+    font-family: Georgia, serif; /* Georgia font family */
+    color: darkslategray; /* darkslategray color */
+    text-align: auto; /* Center-align text */
+    margin-top: 0.5rem; /* Margin above the caption */
+}
+
+h2 {
+    font-variant: small-caps; /* Optional: Small caps font variant */
+    font-style: italic; /* Optional: Italic font style */
+    font-weight: bold; /* Optional: Bold font weight */
+    font-family: Georgia, serif; /* Optional: Font family */
+    color: rgb(248, 40, 133); /* pink color */
+}
+
+
+/* Unordered list within aside - styles for list items */
+aside ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+aside ul li {
+    margin: 0.5rem 0; /* Margin above and below each item */
+}
+
+/* Links within aside ul li - styles for links */
+aside ul li a {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Black color */
+}
+
+/* Hover effect for links within aside ul li a - change color on hover */
+aside ul li a:hover {
+    color: orange; /* Orange color on hover */
+}
+
+/* Form controls - width, padding, and border */
+form label {
+    font-variant: small-caps; /* Small caps font variant */
+    font-weight: bold; /* Bold text */
+    border: 0.2px solid lightgray; /* Border around controls */
+    border-radius: 2rem; /* Rounded corners */
+}
+
+
+
+
+#Resources {
+    float: center;
+    width: 30%;
+    padding: 0.5rem; /* Padding inside controls */
+    margin: 0.5rem 0; /* Margin above and below controls */
+    border: 1px solid lightgray; /* Border around controls */
+    border-radius: 2rem; /* Rounded corners */
+}
+
+form input, 
+form textarea, 
+form select {
+    width: 100%; /* Full width */
+    padding: 0.5rem; /* Padding inside controls */
+    margin: 0.5rem 0; /* Margin above and below controls */
+    border: 1px solid lightgray; /* Border around controls */
+    border-radius: 2rem; /* Rounded corners */
+}
+
+/* Responsive design for screens smaller than 768px */
+@media (max-width: 600px) {
+    .Biography-content {
+        flex-direction: column; /* Stack content vertically */
+    }
+}

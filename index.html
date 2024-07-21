@@ -9,6 +9,7 @@
     <meta name="Keywords" content="Nelson Mandela Biography, Education, Political Awakening, Prison Years"/>
     <meta name="description" content="This website is about the life of Nelson Mandela"/>
     <title>Nelson Mandela | Biography</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Header section-->
@@ -19,43 +20,43 @@
      </header>
 
      <main>
-        <!-- Biography section of Nelson Mandela-->
-         <section id="Biography of Nelson Mandela">
-            <h2>
-                Biography of Nelson Mandela
-            </h2>
-            <!-- Biography paragraph using a blockquote element-->
-             <blockquote cite="https://www.biography.com/political-figures/nelson-mandela">
-                <strong><div>Nelson Mandela</strong> was the first Black president of South Africa,</div><div> elected after time
-                in prison for his anti-apartheid work.</div> He won the Noble Prize in 1993.
-             </blockquote>
-             <!-- A figure element using a Relative path image and a figcaption-->
-              <figure>
-                <img src="images/Nelson Mandela Noble Prize.jpg" alt="Nelson Mandela Won Noble Prize" title="Won Peace Noble Prize">
-                <figcaption>
-                    Noble Peace Prize Medal for Nelson Mandela
-                </figcaption>
-              </figure>
-              <!-- Motivational quote by Nelson Mandela using q element-->
-               <p>
-                <h2>
-                    Quote
-                </h2>
-                <q cite="https://www.lionworldtravel.com/news/8-nelson-mandela-day-quotes">DO NOT JUDGE ME BY MY SUCCESSES, JUDGE ME BY HOW MANY TIMES I FELL DOWN AND GOT BACK UP AGAIN.</q>
-                </p>
-                <p>
+        <!-- Biography section of Nelson Mandela -->
+        <section id="Biography">
+            <div class="Biography-content">
+                <div class="Biography-text">
+                    <h2>Biography of Nelson Mandela</h2>
+                    <!-- Biography paragraph using a blockquote element -->
+                    <blockquote cite="https://www.biography.com/political-figures/nelson-mandela">
+                        <strong>Nelson Mandela</strong> was the first Black president of South Africa,
+                        elected after time in prison for his anti-apartheid work. He won the Nobel Prize in 1993.
+                    </blockquote>
+                </div>
+                <!-- A figure element using a relative path image and a figcaption -->
+                <figure class="Biography-image">
+                    <img src="images/Nelson Mandela Noble Prize.jpg" alt="Nelson Mandela Won Nobel Prize" title="Won Peace Nobel Prize">
+                    <figcaption>
+                        Nobel Peace Prize Medal for Nelson Mandela
+                    </figcaption>
+                </figure>
+            </div>
+            <!-- Motivational quote by Nelson Mandela using q element -->
+            <div class="Biography-quote">
+                <h2>Quote</h2>
+                <q cite="https://www.lionworldtravel.com/news/8-nelson-mandela-day-quotes">
+                    DO NOT JUDGE ME BY MY SUCCESSES, JUDGE ME BY HOW MANY TIMES I FELL DOWN AND GOT BACK UP AGAIN.
+                </q>
                 <cite>
                     8 NELSON MANDELA QUOTES THAT INSPIRE ME EVERY DAY  
                 </cite>
                 <div>
-                 By Lucille Sive Published July 18, 2023
+                    By Lucille Sive Published July 18, 2023
                 </div>
-                </p>
-               
-         </section>
+            </div>
+        </section>
+
 
          <!-- Nelson Mandela Education life section-->
-          <section id="Nelson Mandela Education">
+          <section id="Education">
             <h2>
                 Education of Nelson Mandela
             </h2>
@@ -92,7 +93,7 @@
           </section>
           
           <!-- Prison section of Nelson Mandela-->
-         <section id="Why did Nelson Mandela go to Prison">
+         <section id="Prison">
             <h2>
                 Why did Nelson Mandela go to Prison
             </h2>
@@ -109,7 +110,7 @@
               </figure>      
          </section>
         <!-- Death section of Nelson Mandela-->
-        <section id="When did Nelson Mandela die">
+        <section id="Death">
             <h2>
                 When did Nelson Mandela die
             </h2>
@@ -146,7 +147,7 @@
          </section>
 
          <!-- Section for Contact us-->
-          <section id="Contact us">
+          <section id="Contact">
 
             <!--Creating Contact form with multiple input elements-->
             <form action="Contact Form" method="post">
